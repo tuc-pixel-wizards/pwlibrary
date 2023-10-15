@@ -105,3 +105,15 @@ margin-right:6px;
 }
 
 
+/* Placering, center, right and left */
+.pw-centrum {
+text-align: center;
+}
+.pw-right {
+text-align: right;
+}
+.pw-left {
+text-align: left;
+}
+
+
