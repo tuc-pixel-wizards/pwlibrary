@@ -156,31 +156,83 @@ text-align: left;
 }
 
 
-/* Grid kolumner pw_row */
+/* ************ Grid kolumner pw_row **********/
+/* *********Start**********/
 .pw_row {
 position: relative;
 }
 
 
-
-
-/* Media Query 300 */
-@media screen and (min-width:300px) {
-
+.pw_row {
+  display: grid;
+  grid-gap: 10px;
+  background-color: #2196A3;
+  padding: 10px;
 }
 
 
-/* Media Query 600 */
+.pw_col_1 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+
+.pw_col_2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+
+.pw_col_3 {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.pw_col_4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.pw_col_5 {
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.pw_col_6 {
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.pw_col_7 {
+  grid-template-columns: repeat(7, 1fr);
+}
+
+
+.pw_col_8 {
+  grid-template-columns: repeat(8, 1fr);
+}
+
+/* *********End**********/
+
+
+
+
+/* Start Media Query 300 */
+@media screen and (max-width:300px) {
+
+.pw_col_6 {
+  grid-template-columns: repeat(1, 1fr);
+}
+
+
+
+}
+/* End Media Query 300 */
+
+/* Start Media Query 600 */
 @media screen and (min-width:600px) {
 
+
 }
+/* End Media Query 600 */
 
-
-/* Media Query 900 */
+/* Start Media Query 900 */
 @media screen and (min-width:900px) {
 
 }
-
-
-
+/* End Media Query 900 */
 
