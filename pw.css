@@ -47,21 +47,42 @@ body, html {
 
 
 /* Padding */ 
-/* Förslag, vi kan ha pw_pt_2, padding for padding-top, b för bottom, x för sidorna  */
-.pw_p_2 x
-padding: 2px;
+/* Förslag,  att ha pw_pt_2, padding for padding-top, b för bottom, x för sidorna  */
+.pw_pr_2 {
+padding-right: 2px;
 }
-.pw_p_4 {
-padding: 4px;
+.pw_pr_4 {
+padding-right: 4px;
 }
-.pw_p_6 {
-padding: 6px;
+.pw_pr_6 {
+padding-right: 6px;
+}
+
+.pw_pl_2 {
+margin-left:2px;
+}
+.pw_pl_4 {
+margin-left:4px;
+}
+.pw_pl_6 {
+margin-left:6px;
+}
+ 
+
+.pw_mr_2 {
+margin-right:2px;
+}
+.pw_mr_4 {
+margin-right:4px;
+}
+.pw_mr_6 {
+margin-right:6px;
 }
 
 
 /* Margin */ 
 /* Förslag, vi kan ha pw_m_2, margin for margin-top, b för bottom, x för sidorna  */
-
+/* Margin left */ 
 .pw_ml_2 {
 margin-left:2px;
 }
@@ -71,9 +92,8 @@ margin-left:4px;
 .pw_ml_6 {
 margin-left:6px;
 }
-
-
-
+ 
+/* Margin right */ 
 .pw_mr_2 {
 margin-right:2px;
 }
