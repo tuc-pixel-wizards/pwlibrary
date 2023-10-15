@@ -24,3 +24,23 @@ body, html {
 }
 
 
+
+/* Colors for text */    
+.pw_black {color:#000000;}
+.pw_lack {color:#FFFBF0;}
+.pw_red {color:#f13b3b;}
+.pw_green {color:#2A9F55;}
+.pw_blue {color:#025193;}
+.pw_brown {color:#D47F00;}
+.pw_yellow {color:#FC3;}
+.pw_grey {color:#AA9FAA;}
+
+/* Background colors for elements*/    
+.pwbg_black {background-color:#000000;}
+.pwbg_white {background-color:#FFFBF0;}
+.pwbg_fred {background-color:#f13b3b;}
+.pwbg_green {background-color:#2A9F55;}
+.pwbg_blue {background-color:#025193;}
+.pwbg_brown {background-color:#D47F00;}
+.pwbg_yellow {background-color:#FC3;}
+.pwbg_grey {background-color:#AA9FAA;}
