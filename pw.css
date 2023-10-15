@@ -1,0 +1,25 @@
+/* 
+En pixel-wizards CSS bibliotek, pw.css
+Den är tänkt för att vara en bibliotek som ska innehålla alla class, regler för att designa webbsidorna.
+*/
+
+body, html {
+height: 100%;
+margin: 0;
+}
+
+
+#header {
+max-width:1100px; margin: 0px auto;
+}
+
+#main {
+    max-width:1100px; margin: 0px auto;
+    }
+
+    
+#footer {
+        max-width:1100px; margin: 0px auto;
+        }
+
+
