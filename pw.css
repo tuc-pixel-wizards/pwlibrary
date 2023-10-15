@@ -158,16 +158,11 @@ text-align: left;
 
 /* ************ Grid kolumner pw_row **********/
 /* *********Start**********/
-.pw_row {
-position: relative;
-}
-
-
+ 
 .pw_row {
   display: grid;
   grid-gap: 10px;
   background-color: #2196A3;
-  padding: 10px;
 }
 
 
