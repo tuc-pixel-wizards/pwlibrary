@@ -156,3 +156,31 @@ text-align: left;
 }
 
 
+/* Grid kolumner pw_row */
+.pw_row {
+position: relative;
+}
+
+
+
+
+/* Media Query 300 */
+@media screen and (min-width:300px) {
+
+}
+
+
+/* Media Query 600 */
+@media screen and (min-width:600px) {
+
+}
+
+
+/* Media Query 900 */
+@media screen and (min-width:900px) {
+
+}
+
+
+
+
