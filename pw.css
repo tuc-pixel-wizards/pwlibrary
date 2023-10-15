@@ -44,3 +44,44 @@ body, html {
 .pwbg_brown {background-color:#D47F00;}
 .pwbg_yellow {background-color:#FC3;}
 .pwbg_grey {background-color:#AA9FAA;}
+
+
+/* Padding */ 
+/* Förslag, vi kan ha pw_pt_2, padding for padding-top, b för bottom, x för sidorna  */
+.pw_p_2 x
+padding: 2px;
+}
+.pw_p_4 {
+padding: 4px;
+}
+.pw_p_6 {
+padding: 6px;
+}
+
+
+/* Margin */ 
+/* Förslag, vi kan ha pw_m_2, margin for margin-top, b för bottom, x för sidorna  */
+
+.pw_ml_2 {
+margin-left:2px;
+}
+.pw_ml_4 {
+margin-left:4px;
+}
+.pw_ml_6 {
+margin-left:6px;
+}
+
+
+
+.pw_mr_2 {
+margin-right:2px;
+}
+.pw_mr_4 {
+margin-right:4px;
+}
+.pw_mr_6 {
+margin-right:6px;
+}
+
+
